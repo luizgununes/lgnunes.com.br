@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.title {
+	margin-bottom: 36px;
+}
+
+.title span {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-files {
+  width: 50%;
+  border: 3px dashed lightgrey;
+  min-height: 160px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.btn-join {
+  background: #c21938;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.center-btn {
+  text-align: center;
+  width: 100%;
+  padding-top: 25px;
+}
+
+.no-files {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  padding-top: 65px;
+}
+
+.pdf-file {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444;
+  margin: 2%;
+  border: 1px solid lightgrey;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-remove {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #c21938;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 5px;
+}

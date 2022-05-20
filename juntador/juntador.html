@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <title>Juntador de PDF</title>
+    <meta charset="UTF-8" />
+    <meta property="og:title" content="Juntador de PDF" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://luizgununes.github.io/" />
+    <meta property="og:site_name" content="Juntador de PDF" />
+    <meta property="og:description" content="Juntador de PDF" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="copyright" content="luiz gustavo nunes" />
+    <meta name="description" content="Juntador de PDF" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+    <link rel="canonical" href="https://luizgununes.github.io" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script> 
+    <script src="https://unpkg.com/downloadjs@1.4.7"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="title">
+      <span>Juntador de PDF do Nunão</span>
+    </div>
+    <div class="list-files">
+      <div class="no-files">NENHUM ARQUIVO ADICIONADO</div>
+    </div>
+    <div style="display: none">
+      <input type="file" id="pdf-file" accept="application/pdf" />
+    </div>
+    <div class="center-btn">
+      <button class="btn-join" onclick="$('#pdf-file').click()">ADICIONAR ARQUIVO</button>
+      <button class="btn-join" onclick="joinPdf()">JUNTAR ARQUIVOS</button>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
